@@ -176,7 +176,7 @@ class _ScaffoldState extends State<Scaffold> {
   @override
   Widget build(BuildContext context) {
     return CupertinoTabScaffold(
-      tabBar: CupertinoTabBar(
+      tabBar:  CupertinoTabBar(
         items: [
           BottomNavigationBarItem(
             icon: Icon(CupertinoIcons.book_solid),
